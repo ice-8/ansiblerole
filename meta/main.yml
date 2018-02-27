@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: ice-8
+  description: ansible test case
+  github_branch: master
+
+dependencies:
+  - src: https://github.com/dresden-weekly/ansible-network-interfaces.git 
+    name: git-ansible-network-interfaces
+    path: roles
+    scm: git
+    version: master
+
+  - src: dresden-weekly.network-interfaces
+    name: galaxy-ansible-network-interfaces
+    version: master
